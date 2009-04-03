@@ -1,0 +1,10 @@
+V8 for couchdb.
+
+Tested on x86/OSX, but should be fine on Linux too.
+
+BUILD/INSTALL:
+* Type make
+* Put the resulting binary (couchv8) in a directory of your choice
+* Change you couchdb config by replacing your query_servers line with this: javascript=/path/to/couchv8 /usr/local/share/couchdb/server/main.js
+* Restart couchdb
+
